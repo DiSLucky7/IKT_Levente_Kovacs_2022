@@ -52,8 +52,22 @@ namespace SerialGenerator
             } while (datareaderSelect.Read());
 
             datareaderSelect.Close();
+        }
 
+        public void queryDelete(int id)
+        {
+            try
+            {
+                string qry = $"DELETE FROM serial WHERE id={id}";
+                MySqlCommand cmd = new MySqlCommand(qry, connection);
+                MySqlDataReader datareaderSelect = cmd.ExecuteReader();
+                datareaderSelect.Close();
 
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Ilyen id-val nincs rekord!");
+            }
         }
            
 
