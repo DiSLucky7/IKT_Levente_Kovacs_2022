@@ -8,13 +8,14 @@ namespace SerialGenerator
 {
     internal class Program
     {
-        static void kapcsolodas()
+        static void adatbazisMuveletek()
         {
             Connect c = new Connect();
+            c.querySelect();
         }
         static void Main(string[] args)
         {
-            kapcsolodas();
+            adatbazisMuveletek();
             Console.ReadKey();
         }
     }

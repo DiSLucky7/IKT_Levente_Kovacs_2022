@@ -38,5 +38,24 @@ namespace SerialGenerator
                 Console.WriteLine(e.Message);
             }
         }
+        public void querySelect()
+        {
+            string qry = "SELECT `id`, `razon`, `active` FROM `serial` ORDER BY `id` ASC;";
+            MySqlCommand cmd = new MySqlCommand(qry, connection);
+
+            MySqlDataReader datareaderSelect = cmd.ExecuteReader();
+            datareaderSelect.Read();
+            do
+            {
+                Console.WriteLine($"{datareaderSelect.GetValue(0).ToString()} {datareaderSelect.GetValue(1).ToString()} {datareaderSelect.GetValue(2).ToString()}");
+
+            } while (datareaderSelect.Read());
+
+            datareaderSelect.Close();
+
+
+        }
+           
+
     }
 }
