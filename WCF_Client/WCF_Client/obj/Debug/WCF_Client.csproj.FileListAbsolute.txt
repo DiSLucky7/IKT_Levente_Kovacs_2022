@@ -1,0 +1,22 @@
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\bin\Debug\WCF_Client.exe.config
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\bin\Debug\WCF_Client.exe
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\bin\Debug\WCF_Client.pdb
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.AssemblyReference.cache
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.CoreCompileInputs.cache
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.exe
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.pdb
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kerenyir\source\repos\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.CopyComplete
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\bin\Debug\WCF_Client.exe.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\bin\Debug\WCF_Client.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\bin\Debug\WCF_Client.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.csproj.CopyComplete
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Client\WCF_Client\obj\Debug\WCF_Client.pdb

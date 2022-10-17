@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Server" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Server" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Kutya">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Record">
+        <xs:sequence>
+          <xs:element name="Eletkor" type="xs:unsignedByte" />
+          <xs:element name="Fajta" nillable="true" type="xs:string" />
+          <xs:element name="Gazdi" nillable="true" type="xs:string" />
+          <xs:element name="LabakSzama" type="xs:unsignedByte" />
+          <xs:element name="Neme" nillable="true" type="xs:boolean" />
+          <xs:element name="Nev" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Kutya" nillable="true" type="tns:Kutya" />
+  <xs:complexType name="Record">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Record" nillable="true" type="tns:Record" />
+  <xs:complexType name="ArrayOfKutya">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Kutya" nillable="true" type="tns:Kutya" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKutya" nillable="true" type="tns:ArrayOfKutya" />
+</xs:schema>

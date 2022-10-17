@@ -1,0 +1,7 @@
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\bin\Gyak WCF.dll.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\bin\Gyak WCF.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\bin\Gyak WCF.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\obj\Debug\Gyak WCF.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\obj\Debug\Gyak WCF.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\obj\Debug\Gyak WCF.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Gyak WCF\Gyak WCF\obj\Debug\Gyak WCF.pdb

@@ -1,0 +1,24 @@
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\HOST.exe.config
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\HOST.exe
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\HOST.pdb
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.AssemblyReference.cache
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.SuggestedBindingRedirects.cache
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.CoreCompileInputs.cache
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.exe
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.pdb
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\Server.dll
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\Server.pdb
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\bin\Debug\Server.dll.config
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.CopyComplete
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\HOST.exe.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\HOST.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\HOST.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\Server.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\Server.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\bin\Debug\Server.dll.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.csproj.CopyComplete
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\HOST\obj\Debug\HOST.pdb

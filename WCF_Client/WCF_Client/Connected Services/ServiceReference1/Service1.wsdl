@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:3000/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Server" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_EgyKutyaGetCS_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaGetCS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaGetCS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaGetCSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaGet_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaGet" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaGet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaPost_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaPost" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaPost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaPostCS_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaPostCS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaPostCS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaPostCSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_KutyakListaja_InputMessage">
+    <wsdl:part name="parameters" element="tns:KutyakListaja" />
+  </wsdl:message>
+  <wsdl:message name="IService1_KutyakListaja_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KutyakListajaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_KutyakListajaCS_InputMessage">
+    <wsdl:part name="parameters" element="tns:KutyakListajaCS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_KutyakListajaCS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KutyakListajaCSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaAddCS_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaAddCS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaAddCS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaAddCSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaAdd_InputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaAdd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EgyKutyaAdd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EgyKutyaAddResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="EgyKutyaGetCS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaGetCS" message="tns:IService1_EgyKutyaGetCS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaGetCSResponse" message="tns:IService1_EgyKutyaGetCS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EgyKutyaGet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaGet" message="tns:IService1_EgyKutyaGet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaGetResponse" message="tns:IService1_EgyKutyaGet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EgyKutyaPost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaPost" message="tns:IService1_EgyKutyaPost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaPostResponse" message="tns:IService1_EgyKutyaPost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EgyKutyaPostCS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaPostCS" message="tns:IService1_EgyKutyaPostCS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaPostCSResponse" message="tns:IService1_EgyKutyaPostCS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KutyakListaja">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/KutyakListaja" message="tns:IService1_KutyakListaja_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/KutyakListajaResponse" message="tns:IService1_KutyakListaja_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KutyakListajaCS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/KutyakListajaCS" message="tns:IService1_KutyakListajaCS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/KutyakListajaCSResponse" message="tns:IService1_KutyakListajaCS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EgyKutyaAddCS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaAddCS" message="tns:IService1_EgyKutyaAddCS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaAddCSResponse" message="tns:IService1_EgyKutyaAddCS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EgyKutyaAdd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EgyKutyaAdd" message="tns:IService1_EgyKutyaAdd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EgyKutyaAddResponse" message="tns:IService1_EgyKutyaAdd_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="Service1" />
+</wsdl:definitions>

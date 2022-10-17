@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment_wcf", "Payment_wcf\Payment_wcf.csproj", "{76CC71F2-D5A0-4048-B753-FEDAF13CEF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76CC71F2-D5A0-4048-B753-FEDAF13CEF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CC71F2-D5A0-4048-B753-FEDAF13CEF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CC71F2-D5A0-4048-B753-FEDAF13CEF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CC71F2-D5A0-4048-B753-FEDAF13CEF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAFC2E15-3835-4B64-A307-300A3960C77F}
+	EndGlobalSection
+EndGlobal

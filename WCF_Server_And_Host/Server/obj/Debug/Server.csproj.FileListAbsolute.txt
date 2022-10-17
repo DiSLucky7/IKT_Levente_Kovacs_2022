@@ -1,0 +1,14 @@
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\bin\Server.dll.config
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\bin\Server.dll
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\bin\Server.pdb
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\obj\Debug\Server.dll
+C:\Users\kerenyir\source\repos\WCF_Server_And_Host\Server\obj\Debug\Server.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\bin\Server.dll.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\bin\Server.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\bin\Server.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\obj\Debug\Server.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\WCF_Server_And_Host\Server\obj\Debug\Server.pdb
