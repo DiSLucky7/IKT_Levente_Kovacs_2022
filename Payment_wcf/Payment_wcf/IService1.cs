@@ -23,18 +23,19 @@ namespace Payment_wcf
         [OperationContract]
         Customer CustomerGetCS();
 
+
         [OperationContract]
         [WebInvoke(Method = "POST",
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
-            UriTemplate = "/CustomerPost/"
+            UriTemplate = "/CustomerPost/{id}/{name}/{city}"
             )]
-        Customer CustomerPost();
+        Customer CustomerPost(string id, string name, string city);
 
-        [OperationContract]
+        //[OperationContract]
+        //Customer CustomerPostCS();
 
-        Customer CustomerPostCS();
 
         [OperationContract]
         [WebInvoke(Method = "GET",
@@ -45,12 +46,11 @@ namespace Payment_wcf
             )]
         List<Customer> CustomerkListaja();
 
+        //[OperationContract]
+        //List<Customer> CustomerkListajaCS();
+
+
         [OperationContract]
-
-        List<Customer> CustomerkListajaCS();
-
-        [OperationContract]
-
         string CustomerAddCS(Customer kutya);
 
         [OperationContract]
@@ -60,26 +60,24 @@ namespace Payment_wcf
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "/CustomerAdd"
             )]
-
         string CustomerAdd(Customer kutya);
 
         [OperationContract]
-
         string CustomerPutCS(Customer kutya);
+
 
         [OperationContract]
         [WebInvoke(Method = "PUT",
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
-            UriTemplate = "/CustomerModosit"
+            UriTemplate = "/CustomerPut"
             )]
-
         string CustomerPut(Customer kutya);
-
 
         [OperationContract]
         string CustomerPatchCS(Customer kutya);
+
 
         [OperationContract]
         [WebInvoke(Method = "PATCH",
@@ -91,8 +89,9 @@ namespace Payment_wcf
         string CustomerPatch(Customer kutya);
 
 
+
         [OperationContract]
-        string CustomerDeleteCS(int ID);
+        string CustomerDeleteCS(string ID);
 
         [OperationContract]
         [WebInvoke(Method = "DELETE",
@@ -101,7 +100,7 @@ namespace Payment_wcf
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "/CustomerTorol"
             )]
-        string CustomerDelete(int ID);
+        string CustomerDelete(string ID);
 
 
         [OperationContract]
@@ -109,18 +108,19 @@ namespace Payment_wcf
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
-            UriTemplate = "/CustomerTorol?ID={ID}"
+            UriTemplate = "/CustomerDelete/{ID}"
             )]
-        string CustomerDeleteID(int ID);
+        string CustomerDeleteID(string ID);
+
 
         [OperationContract]
         [WebInvoke(Method = "GET",
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
-            UriTemplate = "/CustomerGetID?ID={ID}"
+            UriTemplate = "/CustomerGetID/{ID}"
             )]
-        Customer CustomerGetID(int ID);
+        Customer CustomerGetID(string ID);
 
     }
 

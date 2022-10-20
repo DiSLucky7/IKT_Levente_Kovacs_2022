@@ -53,21 +53,22 @@ namespace Payment_wcf
             return CustomerGet();
         }
 
-        public Customer CustomerPost()
+        public Customer CustomerPost(string id, string name, string city)
         {
             Customer customer = new Customer();
-            customer.ID = random.Next(1, 10001);
-            customer.Name = "Customer2";
-            customer.City = "BP";
+            customer.ID = int.Parse(id);
+            customer.Name = name;
+            customer.City = city;
             customerLista.Add(customer);
+            customerIndex.Add(int.Parse(id));
             Console.WriteLine("Működik a post");
             return customer;
         }
 
-        public Customer CustomerPostCS()
-        {
-            return CustomerPost();
-        }
+        //public Customer CustomerPostCS()
+        //{
+        //    return CustomerPost();
+        //}
 
         public List<Customer> CustomerkListaja()
         {
@@ -75,10 +76,10 @@ namespace Payment_wcf
             return customerLista;
         }
 
-        public List<Customer> CustomerkListajaCS()
-        {
-            return CustomerkListaja();
-        }
+        //public List<Customer> CustomerkListajaCS()
+        //{
+        //    return CustomerkListaja();
+        //}
 
         public string CustomerAddCS(Customer customer)
         {
@@ -153,11 +154,11 @@ namespace Payment_wcf
             return CustomerPutCS(customer);
         }
 
-        public string CustomerDeleteCS(int ID)
+        public string CustomerDeleteCS(string ID)
         {
             if (ID != null)
             {
-                int id = (int)ID;
+                int id = int.Parse(ID);
                 if (customerIndex.Contains(id))
                 {
                     int index = Pozicio(id);
@@ -172,19 +173,20 @@ namespace Payment_wcf
             return "Adatok törlése sikertelen";
         }
 
-        public string CustomerDelete(int ID)
+        public string CustomerDelete(string ID)
         {
             return CustomerDeleteCS(ID);
         }
 
-        public string CustomerDeleteID(int ID)
+        public string CustomerDeleteID(string ID)
         {
             return CustomerDeleteCS(ID);
         }
 
-        public Customer CustomerGetID(int ID)
+
+        public Customer CustomerGetID(string ID)
         {
-            return CustomerGetIDCS(ID);
+            return CustomerGetIDCS(int.Parse(ID));
         }
 
 

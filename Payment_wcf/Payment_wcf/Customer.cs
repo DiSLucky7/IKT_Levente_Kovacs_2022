@@ -18,12 +18,5 @@ namespace Payment_wcf
 
         [DataMember(IsRequired = true)]
         public string City { get; set; }
-
-        public Customer()
-        {
-            ID = 1;
-            Name = "Customer1";
-            City = "Miskolc;";
-        }
     }
 }
