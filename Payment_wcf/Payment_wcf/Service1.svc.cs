@@ -1,194 +1,163 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 
 namespace Payment_wcf
 {
     public class Service1 : IService1
     {
-        //List<Customer> cust = new List<Customer>();
-        //public Customer getCustomer()
-        //{
-        //    cust.Add(new Customer());
-        //    return cust[0];
-        //}
-
-
-        public static List<Customer> customerLista = new List<Customer>();
-        Random random = new Random();
-
-        public static HashSet<int> customerIndex = new HashSet<int>();//ID kerül ide
-
-        public static int Pozicio(int id)
+        Connect c = new Connect();
+        List<Customer> cust = new List<Customer>();
+        public List<Customer> getCustomers()
         {
-            int index = 0;
-            int soroSzama = customerLista.Count;
-            while (index < soroSzama)
+            string qry = "SELECT * FROM customer";
+
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = c.connection;
+            cmd.CommandText = qry;
+
+            MySqlDataReader dr = cmd.ExecuteReader();
+
+            while (dr.Read())
             {
-                if (customerLista[index].ID == id)
-                {
-                    return index;
-                }
-                index++;
+                Customer customer = new Customer();
+
+                customer.Id = dr.GetInt32(0);
+                customer.Name = dr.GetString(1);
+                customer.City = dr.GetString(2);
+                customer.Age = dr.GetInt32(3);
+
+                cust.Add(customer);
             }
-            return -1;
+
+            return cust;
+
         }
-
-        public Customer CustomerGet()
+        public Customer getCustomer(string id)
         {
-            Customer customer = new Customer();
-            customer.ID = 1;
-            customer.Name = "Customer1";
-            customer.City = "Miskolc";
-            Console.WriteLine("Adatok lekérve...");
-            return customer;
-        }
 
-        public Customer CustomerGetCS()
-        {
-            return CustomerGet();
-        }
-
-        public Customer CustomerPost(string id, string name, string city)
-        {
-            Customer customer = new Customer();
-            customer.ID = int.Parse(id);
-            customer.Name = name;
-            customer.City = city;
-            customerLista.Add(customer);
-            customerIndex.Add(int.Parse(id));
-            Console.WriteLine("Működik a post");
-            return customer;
-        }
-
-        //public Customer CustomerPostCS()
-        //{
-        //    return CustomerPost();
-        //}
-
-        public List<Customer> CustomerkListaja()
-        {
-            Console.WriteLine("Customerlista lekérve");
-            return customerLista;
-        }
-
-        //public List<Customer> CustomerkListajaCS()
-        //{
-        //    return CustomerkListaja();
-        //}
-
-        public string CustomerAddCS(Customer customer)
-        {
-            if (customer != null && customer.ID != null)
+            try
             {
-                int id = (int)customer.ID;
-                if (!customerIndex.Contains(id))
-                {
-                    customerLista.Add(customer);
-                    customerIndex.Add(id);
-                    return "Adat hozzáadása sikeres.";
-                }
+                string qry = "SELECT * FROM `customer` WHERE id=@id";
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = c.connection;
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.CommandText = qry;
+
+                MySqlDataReader dr = cmd.ExecuteReader();
+
+                dr.Read();
+
+                Customer customer = new Customer();
+
+                customer.Id = dr.GetInt32(0);
+                customer.Name = dr.GetString(1);
+                customer.City = dr.GetString(2);
+                customer.Age = dr.GetInt32(3);
+
+
+                dr.Close();
+                return customer;
             }
-            return "Az adat hozzáadás sikertelen!";
-        }
-
-        public string CustomerAdd(Customer customer)
-        {
-            Console.WriteLine(customer);
-            return CustomerAddCS(customer);
-        }
-
-        public string CustomerPutCS(Customer customer)
-        {
-            if (customer != null && customer.ID != null)
+            catch (Exception)
             {
-                int id = (int)customer.ID;
-                if (customerIndex.Contains(id))
-                {
-                    int index = Pozicio(id);
-                    if (index != -1)
-                    {
-                        customerLista[index] = customer;
-                        return "Adat módosítása sikeres.";
-                    }
-                }
+
+                throw;
             }
-            return "Adatok módosítása sikertelen";
+
         }
 
-        public Customer CustomerGetIDCS(int ID)
+        public string deleteCustomer(string id)//*Ok
         {
-            if (ID >= 0)
+            try
             {
-                int id = (int)ID;
-                if (customerIndex.Contains(id))
-                {
-                    int index = Pozicio(id);
-                    if (index != -1)
-                    {
-                        return customerLista[index];
-                    }
-                }
+                string qry = "DELETE FROM customer WHERE id=" + id;
+                MySqlCommand cmd = new MySqlCommand(qry, c.connection);
+
+                cmd.ExecuteNonQuery();
+
+                return "Felhasználó törölve!";
             }
-            return null;
-        }
-
-        public string CustomerPut(Customer customer)
-        {
-            Console.WriteLine(customer);
-            return CustomerPutCS(customer);
-        }
-
-        public string CustomerPatchCS(Customer customer)
-        {
-            Console.WriteLine(customer);
-            return CustomerPutCS(customer);
-        }
-        public string CustomerPatch(Customer customer)
-        {
-            Console.WriteLine(customer);
-            return CustomerPutCS(customer);
-        }
-
-        public string CustomerDeleteCS(string ID)
-        {
-            if (ID != null)
+            catch (Exception e)
             {
-                int id = int.Parse(ID);
-                if (customerIndex.Contains(id))
-                {
-                    int index = Pozicio(id);
-                    if (index != -1)
-                    {
-                        customerLista.RemoveAt(index);
-                        customerIndex.Remove(id);
-                        return "Adat törlése sikeres.";
-                    }
-                }
+                return e.Message;
             }
-            return "Adatok törlése sikertelen";
+
         }
 
-        public string CustomerDelete(string ID)
+        public string postCustomer(string id, string name, string age, string city)//*Ok
         {
-            return CustomerDeleteCS(ID);
+            try
+            {
+                string qry = "UPDATE `customer` SET `Name`=@name,`Age`=@age,`City`=@city WHERE Id=@id;";
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = c.connection;
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.Parameters.AddWithValue("@name", name);
+                cmd.Parameters.AddWithValue("@age", age);
+                cmd.Parameters.AddWithValue("@city", city);
+                cmd.CommandText = qry;
+
+                cmd.ExecuteNonQuery();
+
+                return "Módosítás elvégezve!";
+            }
+            catch (Exception e)
+            {
+
+                return e.Message;
+            }
         }
 
-        public string CustomerDeleteID(string ID)
+        public string putCustomer(Customer customer)//*Ok
         {
-            return CustomerDeleteCS(ID);
+            try
+            {
+                string qry = "INSERT INTO `customer`(`name`, `city`, `age`) " +
+                    "VALUE (@name, @city,@age);";
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = c.connection;
+                cmd.Parameters.AddWithValue("@name", customer.Name);
+                cmd.Parameters.AddWithValue("@age", customer.Age);
+                cmd.Parameters.AddWithValue("@city", customer.City);
+                cmd.CommandText = qry;
+                cmd.ExecuteNonQuery();
+
+                return "Felhasználó sikeresen hozzáadva!";
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+            }
         }
 
-
-        public Customer CustomerGetID(string ID)
+        public string patchCustomer(Customer customer)//*Ok
         {
-            return CustomerGetIDCS(int.Parse(ID));
-        }
+            try
+            {
+                string qry = "UPDATE `customer` SET `name`=@name,`age`=@age,`city`=@city WHERE `id`=@id;";
 
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = c.connection;
+                cmd.Parameters.AddWithValue("@id", customer.Id);
+                cmd.Parameters.AddWithValue("@name", customer.Name);
+                cmd.Parameters.AddWithValue("@age", customer.Age);
+                cmd.Parameters.AddWithValue("@city", customer.City);
+                cmd.CommandText = qry;
+
+                cmd.ExecuteNonQuery();
+
+                return "Módosítás elvégezve!";
+            }
+            catch (Exception e)
+            {
+
+                return e.Message;
+            }
+        }
 
     }
 }

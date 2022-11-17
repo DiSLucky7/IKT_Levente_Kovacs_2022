@@ -1,7 +1,102 @@
-C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.AssemblyReference.cache
-C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CoreCompileInputs.cache
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll.config
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.pdb
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CoreCompileInputs.cache
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.pdb
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\MySql.Data.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Buffers.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Memory.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\ZstdNet.dll
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.pdb
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\MySql.Data.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Buffers.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Memory.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CopyComplete
+C:\Users\farkasz\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.AssemblyReference.cache
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll.config
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.pdb
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\MySql.Data.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Buffers.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Memory.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\ZstdNet.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.pdb
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\MySql.Data.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Buffers.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Memory.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.xml
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.AssemblyReference.cache
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CoreCompileInputs.cache
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CopyComplete
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.dll
+D:\Git\IKT_Farkas_Zoltan2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.pdb
 C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll.config
 C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.dll
 C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Payment_wcf.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\MySql.Data.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Buffers.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Memory.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\ZstdNet.dll
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\BouncyCastle.Crypto.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\Google.Protobuf.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\K4os.Hash.xxHash.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\MySql.Data.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Buffers.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Memory.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Numerics.Vectors.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.csproj.CopyComplete
 C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.dll
 C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\Payment_wcf\Payment_wcf\obj\Debug\Payment_wcf.pdb

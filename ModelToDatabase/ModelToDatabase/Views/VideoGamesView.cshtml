@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model List<ModelToDatabase.Models.VideoGames>
+
+@{
+    ViewData["Title"] = "VideoGames Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Üdvözlégy!!</h1>
+    <p>Ez a videó játékok listája.</p>
+</div>
+
+<h2>Videó játékok</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Név</th>
+            <th>Ár</th>
+            <th>Besorolás</th>
+            <th>Kategória</th>
+            <th>Megjelenés</th>
+            <th>Státusz</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model) {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nev</td>
+                <td>@item.Ar</td>
+                <td>@item.Besorolas</td>
+                <td>@item.Kategoria</td>
+                <td>@item.Megjelenes ? "Igen" : "Nem"</td>
+                <td>@item.Statusz</td>
+            </tr>
+        }
+    </tbody>
+</table>

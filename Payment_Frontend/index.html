@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Frontend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container my-3">
+        <h1 class="text-center">Payment Customers</h1>
+
+        <div class="d-flex flex-row">
+            <div class="col-6 p-5">
+                <div class="uList"></div>
+            </div>
+
+            <div class="forms col-6 p-5">
+                <div class="addCustomer">
+                    <form action="" id="form1">
+                        <div class="id-wrp mb-3 hidden">
+                            <label class="form-text mt-3" for="">Id</label>
+                            <input id="id" class="id form-control" type="text">
+                        </div>
+
+                        <label class="form-text" for="">Name</label>
+                        <input id="nev" class="name form-control" type="text">
+
+                        <label class="form-text mt-3" for="">City</label>
+                        <input id="varos" class="city form-control" type="text">
+
+                        <label class="form-text mt-3" for="">Age</label>
+                        <input id="kor" class="age form-control" type="number">
+
+                        <fieldset class="mt-3" id="group1">
+                            <input class="form-check-input create" type="radio" value="value1" name="group1" checked>
+                            <label class="form-check-label" for="">Felvesz</label>
+                            <br>
+                            <input class="form-check-input update" type="radio" value="value2" name="group1">
+                            <label class="form-check-label" for="">Módosít</label>
+                        </fieldset>
+
+                        <button class="update-create btn btn-success mt-3" type="submit">Add new</button>
+                    </form>
+                </div>
+
+                <div class="deleteCustomer__wrp my-5">
+                    <fieldset class="d-flex flex-column">
+                        <label class="form-text" for="">Delete this customer</label>
+                        <input class="deleteId" class="name form-control" type="number">
+                    </fieldset>
+
+                    <button class="deleteCustomer btn btn-danger mt-3">Delete</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

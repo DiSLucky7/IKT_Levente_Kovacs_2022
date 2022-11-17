@@ -1,0 +1,8 @@
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\obj\Debug\LINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\Users\Kovács Levente\Git\IKT_Levente_Kovacs_2022\LINQ\LINQ\obj\Debug\LINQ.pdb
