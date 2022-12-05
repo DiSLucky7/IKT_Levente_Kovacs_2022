@@ -122,8 +122,6 @@ namespace Login
         {
             try
             {
-                //"`uname`, `email`, `pwd`, `fullname`, `active`, `rank`, `ban`";
-                //"@uname, @email, @pwd, @fullname, @active, @rank, @ban";
                 string qry = "UPDATE `users` SET `uname`=@uname,`email`=@email,`pwd`=@pwd," +
                     "`fullname`=@fullname,`active`=@active,`rank`=@rank,`ban`=@ban WHERE `id`=@id;";
 
@@ -167,6 +165,42 @@ namespace Login
             }
         }
 
+        public User login(string UName, string Pwd)
+        {
+            try
+            {
+                string qry = "SELECT * FROM `users` WHERE UName=@uname AND Pwd=@pwd;";
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = c.connection;
+                cmd.Parameters.AddWithValue("@uname", UName);
+                cmd.Parameters.AddWithValue("@pwd", Pwd);
+                cmd.CommandText = qry;
+
+                MySqlDataReader dr = cmd.ExecuteReader();
+                dr.Read();
+
+                User user = new User();
+
+                user.Id = dr.GetInt32(0);
+                user.UName = dr.GetString(1);
+                user.Email = dr.GetString(2);
+                user.Pwd = dr.GetString(3);
+                user.Fullname = dr.GetString(4);
+                user.Active = dr.GetBoolean(5);
+                user.Rank = dr.GetInt32(6);
+                user.Ban = dr.GetBoolean(7);
+                user.RegTime = dr.GetDateTime(8);
+                user.LogTime = dr.GetDateTime(9);
+
+                dr.Close();
+                return user;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
 
 
         //public string postUser(string id, string name, string age, string city)//*Ok

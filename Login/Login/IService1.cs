@@ -61,6 +61,17 @@ namespace Login
         string delete(string id);
 
 
+        [OperationContract]
+        [WebInvoke(Method = "*",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.WrappedResponse,
+            UriTemplate = "login/{UName}/{Pwd}")
+            ]
+        User login(string UName, string Pwd);
+
+
+
         //[OperationContract]//*Ok
         //[WebInvoke(Method = "*",
         //   RequestFormat = WebMessageFormat.Json,

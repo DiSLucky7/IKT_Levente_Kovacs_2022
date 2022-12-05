@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7/sU/KObQ7WFgf/JS4Jmbwi2nBwTNtk8E1pu612YRPDkAmPrCE3PKCW3VlpsTELqUoifbKFSBaBC/RkH5sPjgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kovács Levente\\Git\\IKT_Levente_Kovacs_2022\\AzureTest\\AzureTest\\AzureTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kovács Levente\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

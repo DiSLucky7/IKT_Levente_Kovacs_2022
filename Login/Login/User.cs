@@ -38,6 +38,5 @@ namespace Login
         [DataMember]
         public DateTime LogTime { get; set; }
 
-
     }
 }

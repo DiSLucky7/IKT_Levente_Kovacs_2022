@@ -1,0 +1,139 @@
+.btn-block {
+    display: block !important;
+}
+
+.hidden {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.hidden.transition {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.add__new__form {
+    border-radius: 2rem;
+    border: thin solid rgba(85, 85, 85, 0.1);
+    background-color: #eee;
+}
+
+table {
+    width: min-content !important;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-bottom: 25px;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom: 0.3rem solid #009879;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    /* width: 60%; */
+}
+
+thead {
+    background-color: #009879;
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+
+thead>tr:last-child {
+    text-align: center;
+}
+
+thead>tr:first-child th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+thead>tr:first-child th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+th {
+    text-transform: capitalize;
+    padding: 25px 10px;
+}
+
+tbody {
+    border: thin solid rgba(85, 85, 85, 0.1);
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td {
+    margin: 0;
+    padding: 8px 10px;
+    border-bottom: thin solid #dddddd;
+}
+
+td>div {
+    text-align: center;
+}
+
+.edit__input,
+.add__input {
+    width: 90%;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.4rem;
+    border: thin solid #bbb;
+    border-radius: 0.2rem;
+}
+
+.add__input {
+    font-size: 18px;
+}
+
+.edit__button,
+.delete__button,
+.save__button,
+.cancel__button {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #eee;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.edit__button:hover {
+    box-shadow: rgba(0, 162, 255, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.delete__button:hover {
+    box-shadow: rgba(255, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+tr:nth-child(even)>td>.delete__button,
+tr:nth-child(even)>td>.edit__button {
+    background-color: white;
+}
+
+.save__button:hover,
+.cancel__button:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.save__button {
+    background-color: rgba(0, 162, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cancel__button {
+    background-color: rgba(255, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
